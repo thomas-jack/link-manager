@@ -12,7 +12,7 @@
 	"kv_namespaces": [
 		{
 			"binding": "LINKS_KV",
-			"id": "a6d1a0764e3e4529a730357c3bdf3ade"
+			"id": ""
 			// 这里不要写 id，交给 Cloudflare 部署时自动创建
 		}
 	]
