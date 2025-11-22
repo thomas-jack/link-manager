@@ -11,7 +11,7 @@
 	// KV: 用来存你的链接数据
 	"kv_namespaces": [
 		{
-			"binding": "LINKS_KV",
+			"binding": "Alex",
 			"id": ""
 			// 这里不要写 id，交给 Cloudflare 部署时自动创建
 		}
