@@ -1,0 +1,19 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "link-manager",
+	"main": "worker/index.ts",
+	"compatibility_date": "2025-11-22",
+	// 静态资源：让 wrangler 帮你把 dist 目录当成 Static Assets 上传
+	"assets": {
+		"directory": "./dist",
+		"binding": "ASSETS"
+	},
+	// KV: 用来存你的链接数据
+	"kv_namespaces": [
+		{
+			"binding": "LINKS_KV",
+			"id": "a6d1a0764e3e4529a730357c3bdf3ade"
+			// 这里不要写 id，交给 Cloudflare 部署时自动创建
+		}
+	]
+}
