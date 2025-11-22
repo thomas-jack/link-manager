@@ -12,7 +12,7 @@
 	"kv_namespaces": [
 		{
 			"binding": "Alex",
-			"id": ""
+			"id": "929e01f512e040f39c0cf768f2df9833"
 			// 这里不要写 id，交给 Cloudflare 部署时自动创建
 		}
 	]
