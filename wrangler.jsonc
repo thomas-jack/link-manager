@@ -1,4 +1,4 @@
-49a816de42c248c4bbe0614b5d4784af{
+{
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "cswxnav",
 	"main": "worker/index.ts",
